@@ -60,6 +60,8 @@ switch (luckyNumber) {
     case luckyNumber = 3:
         console.log("Third is the one with the polka dot dress");
         break;
+    default:
+        console.log("Luck is what happens when preparation meets opportunity");
 }
 
 // REQUIRED FEATURES:
