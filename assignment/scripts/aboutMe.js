@@ -49,6 +49,19 @@ if (pets >= friendPets) {
 
 console.log(mostPets);
 
+
+switch (luckyNumber) {
+    case luckyNumber = 1:
+        console.log("First is the worst");
+        break;
+    case luckyNumber = 2:
+        console.log("Second is the best");
+        break;
+    case luckyNumber = 3:
+        console.log("Third is the one with the polka dot dress");
+        break;
+}
+
 // REQUIRED FEATURES:
 // 1 - Create a variable called `firstName` and assign it the value of your first name
 
