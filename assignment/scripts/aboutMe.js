@@ -32,6 +32,15 @@ if (luckyNumber == 2 && adventurous == true){
 if (pets < allowedPets) {
     console.log("I can have more pets");
 }
+
+if (pets == allowedPets) {
+    console.log("I have enough pets");
+}
+
+if (pets > allowedPets) {
+    console.log("Oh no, I have too many pets!");
+}
+
 // REQUIRED FEATURES:
 // 1 - Create a variable called `firstName` and assign it the value of your first name
 
