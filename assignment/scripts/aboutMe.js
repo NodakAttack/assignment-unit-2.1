@@ -64,6 +64,9 @@ switch (luckyNumber) {
         console.log("Luck is what happens when preparation meets opportunity");
 }
 
+let shouldAdventure = (adventurous) ? "Adventures are great, again" : "We should stay home, again";
+console.log(shouldAdventure);
+
 // REQUIRED FEATURES:
 // 1 - Create a variable called `firstName` and assign it the value of your first name
 
