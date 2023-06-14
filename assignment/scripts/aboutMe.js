@@ -1,3 +1,37 @@
+console.log("Hello World")
+
+let firstName = "Brandon";
+let lastName = "Wilson";
+let fulName = firstName + " " + lastName;
+
+console.log(fulName);
+
+let luckyNumber = 17;
+
+console.log("My name is " + fulName + ", and I think " + luckyNumber + " is a winner!");
+
+let adventurous = true;
+let food = "pasta";
+let pets = 0;
+let friendPets = 2;
+
+pets += 2;
+const allowedPets = 3;
+
+if (adventurous == true) {
+    console.log("Adventures are great!");
+}
+else {
+    console.log("How do we stay home?");
+}
+
+if (luckyNumber == 2 && adventurous == true){
+    console.log("Roll the dice!");
+}
+
+if (pets < allowedPets) {
+    console.log("I can have more pets");
+}
 // REQUIRED FEATURES:
 // 1 - Create a variable called `firstName` and assign it the value of your first name
 
