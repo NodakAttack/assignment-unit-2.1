@@ -13,7 +13,7 @@ console.log("My name is " + fulName + ", and I think " + luckyNumber + " is a wi
 let adventurous = true;
 let food = "pasta";
 let pets = 0;
-let friendPets = 2;
+let friendPets = 5;
 
 pets += 2;
 const allowedPets = 3;
@@ -40,6 +40,14 @@ if (pets == allowedPets) {
 if (pets > allowedPets) {
     console.log("Oh no, I have too many pets!");
 }
+
+if (pets >= friendPets) {
+    mostPets = pets;
+}else {
+    mostPets = friendPets
+}
+
+console.log(mostPets);
 
 // REQUIRED FEATURES:
 // 1 - Create a variable called `firstName` and assign it the value of your first name
